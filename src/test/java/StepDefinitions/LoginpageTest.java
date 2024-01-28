@@ -26,19 +26,19 @@ public class LoginpageTest {
     public void verify_the_enroll_button() {
     componentTechnical.Verify_Enroll_button();
     }
-    @Then("Verify the poop Student Enroll")
-    public void verify_the_poop_student_enroll() {
+    @Then("Click on the Enroll button and verify the enroll popup")
+    public void Click_onthe_Enroll_button_and_verify_the_enroll_popup () {
     componentTechnical.Verify_pop_up();
     }
     @Then("Close the browser")
     public void close_the_browaser() {
     driver.quit();
     }
-  @When("Verify the Register Name")
-  public void verify_the_register_name() {
+  @When("Enter username in the registration page")
+  public void Enter_username() {
   componentTechnical.Verify_Enter_Name();
 }
-@Then("Verify The Register Email")
+@Then("Enter email in the registration page")
   public void verify_the_register_email() {
   componentTechnical.Verify_Enter_email();
   }

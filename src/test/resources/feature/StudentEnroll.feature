@@ -3,14 +3,13 @@ Feature: Student Enroll Application
   Background:
     Given Navigate to Student Enroll Application
 
-  Scenario: Login To Student Enroll Button  Application
+  Scenario: Verify the Student enroll process
     When  Verify the Enroll Button
-    Then  Verify the poop Student Enroll
+    Then  Click on the Enroll button and verify the enroll popup
     Then  Close the browser
 
   Scenario: Login To Student Enroll Valid Application
-    When   Verify the Register Name
-    Then   Verify The Register Email
+    When   Enter username in the registration page
+    Then   Enter email in the registration page
     When  Verify the Enroll Button
-    Then  Verify the poop Student Enroll
     Then  Close the browser
