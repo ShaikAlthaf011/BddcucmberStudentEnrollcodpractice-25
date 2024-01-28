@@ -13,3 +13,9 @@ Feature: Student Enroll Application
     Then   Enter email in the registration page
     When  Verify the Enroll Button
     Then  Close the browser
+
+  Scenario: Verify with the invalid username and email
+    When   Enter username in the registration page
+    Then   Enter email in the registration page
+    When  Verify the Enroll Button
+    Then  Close the browser
