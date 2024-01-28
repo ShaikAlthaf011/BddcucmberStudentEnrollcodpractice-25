@@ -8,7 +8,7 @@ Feature: Student Enroll Application
     Then  Click on the Enroll button and verify the enroll popup
     Then  Close the browser
 
-  Scenario: Login To Student Enroll Valid Application
+  Scenario: Verify with the valid username and email
     When   Enter username in the registration page
     Then   Enter email in the registration page
     When  Verify the Enroll Button
